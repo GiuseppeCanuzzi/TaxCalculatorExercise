@@ -42,7 +42,7 @@ public class TaxCalculatorControllerTest {
 		//Setup
 		Good nonImportedGenericGood = GoodCreator.getNonImportedBook(18.99);
 		Good importedGenericGood = GoodCreator.getImportedGeneralGood(27.99);
-		Good nonImportedMedicalGood = GoodCreator.getNonImportedMedical(9.75);
+		Good nonImportedMedicalGood = GoodCreator.getNonImportedMedical(9.70);
 		Good importedFoodGood = GoodCreator.getImportedFood(11.25);
 		
 		List<Good> goodList = Lists.newArrayList(nonImportedGenericGood,nonImportedMedicalGood, importedFoodGood, importedGenericGood);
