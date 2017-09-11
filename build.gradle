@@ -37,14 +37,16 @@ dependencies {
 	compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.6'
 	
     // Use JUnit test framework
-    testImplementation 'junit:junit:4.12'
+    // https://mvnrepository.com/artifact/junit/junit
+	testCompile group: 'junit', name: 'junit', version: '4.12'
+
     
     // https://mvnrepository.com/artifact/org.mockito/mockito-all
-	testCompile group: 'org.mockito', name: 'mockito-all', version: '1.10.19'
+	compile group: 'org.mockito', name: 'mockito-all', version: '1.10.19'
 	
 	//assertJ
 	// https://mvnrepository.com/artifact/org.assertj/assertj-core
-	testCompile group: 'org.assertj', name: 'assertj-core', version: '3.8.0'
+	compile group: 'org.assertj', name: 'assertj-core', version: '3.8.0'
 
 }
 
